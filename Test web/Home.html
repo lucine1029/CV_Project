@@ -3,42 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jing's Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Jing's Portfolio Website</title>
 </head>
+
 <body>
-    <sectiond class="header">
+    <section class="header">
         <nav>
-            <a href="Home.html"><img src="images/girl2.png" class="logo"></a>
-            <!-- <a href="Home.html"><img src="images/Logo.png" class="logo"></a> -->
-            <div class="nav-links">
-                <ul>
+            <div class="nav_content">
+                <div class="logo"><a href="Home.html"><img src="images/Homepage/Logo4.png"></a></div>
+                <label for="check" class="checkbox">
+                    <i class="ri-menu-line"></i>
+                </label>
+                <input type="checkbox" name="check" id="check" />
+                <ul> 
                     <li id="current"><a href="Home.html">HOME</a></li>
                     <li><a href="Portfolio.html">PORTFOLIO</a></li>
                     <li><a href="CV.html">CV</a></li>
-                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="About.html">ABOUT ME</a></li>
                     <li><a href="Contact.html">CONTACT</a></li>
                 </ul>
-            </div>
+            </div>  
         </nav>
     </section>
-    <div class="main-container">
-        <div class="left-container">
-            <h1>Hi, I am Jing <span>Zhang</span></h1>
-            <p>This is my official website to show all
-                <br>my portfolio and CV
-            </p>
-        <a href="#">DOWNLOAD CV</a>
-        </div>
-        <div class="right-container">
-            <!-- <img id="home-background-img" src="images/green background.png" alt="Home-background"> -->
 
+    <section class="main-content"> 
+        <div class="main-container">
+            <div class="left-container">
+                <h1>Jing Zhang</h1>
+                <h2><span>Fullstack .NET Developer</span></h2>
+                <p>
+                    <br>
+                <pre><strong>Phone       </strong>073-914 1272</pre>
+                <br>
+                <pre><strong>Email         </strong>jing.zhang@chasacademy.se</pre>
+                <br>
+                <pre><strong>Address   </strong>Sankt Eriksplan 76, 113 20, Stockholm</pre>
+                </p>
+                <div class="action-links">
+                <!-- Do we need a div here? -->
+                    <a href="https://www.linkedin.com/in/jing-zhang-bb45b5a9/" class="key-links">LinkedIn</a>
+                    <a href="https://github.com/lucine1029" class="key-links">GitHub</a>
+                    <a href="#">DOWNLOAD CV</a>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="image">
+                    <a href="Portfolio.html"><img id="Homepage-photo" src="images/Homepage/Jing3.png" alt="profile"></a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="footer">
+        <h4>Countact Me</h4>
+        <p>jing.zhang@chasacademy.se <br> 073-914 1272</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/jing-zhang-bb45b5a9/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/lucine1029"><i class="fa-brands fa-github"></i></a>
+            <!-- <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-phone"></i> -->
+        </div>
+    </section>
 </body>
 </html>
