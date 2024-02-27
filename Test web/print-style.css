@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root{
+:root {
     --primary-color: rgb(231, 229, 229);
     --secondary-color: orange;
     --text-dark: black;
@@ -13,17 +13,19 @@
     --max-width: 1200px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-html, body{
+html,
+body {
     height: 100vh;
-    font-size: 1rem;  /*16px*/
+    font-size: 1rem;
+    /*16px*/
 }
 
 /* header and navigation menu part */
-.header{
+.header {
     min-height: 10vh;
     width: 100%;
 }
@@ -43,14 +45,14 @@ nav {
 
 .nav_content {
     max-width: var(--max-width);
-    margin:auto;
+    margin: auto;
     padding: 1.5rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav img{
+nav img {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
@@ -86,7 +88,7 @@ ul {
     position: relative;
 } */
 
-ul li a{
+ul li a {
     padding: 0.5rem 1rem;
     border: 2px solid transparent;
     text-decoration: none;
@@ -105,7 +107,7 @@ ul li a{
     transition: 0.5s;
 } */
 
-ul li a:hover{
+ul li a:hover {
     border-top-color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
@@ -134,7 +136,7 @@ ul li a:hover{
     justify-content: center;
 }
 
-.left-container h1{
+.left-container h1 {
     letter-spacing: 2px;
     font-weight: 400;
     /*font-size: 80px;*/
@@ -143,7 +145,7 @@ ul li a:hover{
     cursor: pointer;
 }
 
-.left-container h2 span{
+.left-container h2 span {
     color: var(--secondary-color);
     font-weight: 600;
     line-height: 3rem;
@@ -151,11 +153,11 @@ ul li a:hover{
     margin-bottom: 1rem;
 }
 
-.left-container p{ 
+.left-container p {
     font-weight: 400;
 }
 
-.left-container a{
+.left-container a {
     background: var(--text-dark);
     padding: 10px 18px;
     text-decoration: none;
@@ -167,13 +169,13 @@ ul li a:hover{
 }
 
 .right-container {
-    background-image: url(images/Homepage/green\ background.png); 
+    background-image: url(images/Homepage/green\ background.png);
     display: grid;
     place-items: center;
 }
 
-.image{
-    display:grid;
+.image {
+    display: grid;
     align-self: center;
     justify-self: center;
     width: 75%;
@@ -182,65 +184,66 @@ ul li a:hover{
 .image img {
     width: min(25rem, 90%);
     border-radius: 100%;
-    
+
 }
 
 /*-----------for the secrect module in the Home page------------------*/
-.surpriseModule{
+.surpriseModule {
     display: none;
     position: fixed;
     top: 20rem;
-    left: 3.9rem;
+    left: 5rem;
     width: 42%;
     height: 50%;
     background-image: url(images/EasterEgg/EasterEgg2.png);
 }
 
-.module-content{
+.module-content {
     background-color: khaki;
     padding: 1rem;
     position: absolute;
     top: 50%;
-    left: 76%;
+    left: 75%;
     transform: translate(-50%, -50%);
 }
 
-#close-icon{
+#close-icon {
     font-size: 1.5rem;
     cursor: pointer;
 }
 
 
-/*----------------------Portfolio-------------------------------------*/        /*If have time, to set the demo video part*/
-.portfolio{
+/*----------------------Portfolio-------------------------------------*/
+/*If have time, to set the demo video part*/
+.portfolio {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 6rem;
 }
- 
-.portfolio .title{
+
+.portfolio .title {
     font-size: 2rem;
     line-height: 4rem;
 }
 
-.portfolio .subtitle{
+.portfolio .subtitle {
     font-size: 1.5rem;
     line-height: 4rem;
 }
 
-.portfolio p strong{
+.portfolio p strong {
     color: var(--secondary-color);
 }
 
-.row{
+.row {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
     justify-content: space-around;
 }
 
-.portfolio-col{
+.portfolio-col {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -248,18 +251,18 @@ ul li a:hover{
     overflow: hidden;
 }
 
-.portfolio-col p{
+.portfolio-col p {
     font-weight: 600;
     line-height: 4rem;
 }
 
-.portfolio-col img{
+.portfolio-col img {
     width: 100%;
     display: block;
     min-height: 28rem;
 }
 
-.portfolio-col .layer{
+.portfolio-col .layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -269,11 +272,11 @@ ul li a:hover{
     transition: 0.5s;
 }
 
-.portfolio-col .layer:hover{
+.portfolio-col .layer:hover {
     background: rgba(241, 164, 76, 0.7)
 }
 
-.portfolio-col .layer h3{
+.portfolio-col .layer h3 {
     width: 100%;
     font-weight: 500;
     color: #ffffff;
@@ -286,10 +289,11 @@ ul li a:hover{
     transition: 0.5s;
 }
 
-.portfolio-col .layer:hover h3{
+.portfolio-col .layer:hover h3 {
     bottom: 49%;
     opacity: 1;
 }
+
 /*-----------------------Portfolio-detail part----------------------*/
 .portfolio-detail {
     width: 80%;
@@ -324,7 +328,7 @@ ul li a:hover{
     padding: 4rem 0rem;
 }
 
-.project-row .description .action-links a{
+.project-row .description .action-links a {
     padding: 5px 18px;
     text-decoration: none;
     font-weight: bold;
@@ -334,21 +338,29 @@ ul li a:hover{
 }
 
 /*.project-row .images*/
-.music-pic, .bank-pic, .ball-pic {
+.music-pic,
+.bank-pic,
+.ball-pic {
     display: none;
     width: 25rem;
     height: 25rem;
 }
 
-#music-pic1, #bank-pic1, #ball-pic1 {
+#music-pic1,
+#bank-pic1,
+#ball-pic1 {
     display: block;
 }
 
-.music-pic:target, .bank-pic:target, .ball-pic:target{
+.music-pic:target,
+.bank-pic:target,
+.ball-pic:target {
     display: block;
 }
 
-.music-pic:target ~ .music-pic, .bank-pic:target~.bank-pic, .ball-pic:target~.ball-pic{
+.music-pic:target~.music-pic,
+.bank-pic:target~.bank-pic,
+.ball-pic:target~.ball-pic {
     display: none;
 }
 
@@ -364,7 +376,7 @@ ul li a:hover{
     padding: 4rem 2rem 2rem 2rem;
 }
 
-.cv-container a{
+.cv-container a {
     background: var(--text-dark);
     padding: 10px 18px;
     text-decoration: none;
@@ -377,7 +389,7 @@ ul li a:hover{
     left: 30rem;
 }
 
-.cv-container p{
+.cv-container p {
     font-size: 1rem;
 }
 
@@ -393,17 +405,17 @@ ul li a:hover{
     padding: 2rem 2rem;
 }
 
-.para{
+.para {
     line-height: 1.6rem;
 }
 
-.timeline{
+.timeline {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     font-size: 1.1rem;
 }
 
-.right-title{
+.right-title {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -423,7 +435,7 @@ ul li a:hover{
     transform: translateX(-50%);
 }
 
-.tl-title{
+.tl-title {
     letter-spacing: 1px;
     font-size: 1.1rem;
     color: var(--text-dark);
@@ -438,16 +450,16 @@ ul li a:hover{
     position: relative;
 }
 
-.tl-content{
+.tl-content {
     border-left: 2px solid var(--secondary-color);
     padding-left: 3rem;
     position: relative;
     padding-bottom: 2rem;
 }
 
-.tl-title-2::before{
+.tl-title-2::before {
     content: "";
-    position:absolute;
+    position: absolute;
     width: 0.6rem;
     height: 0.6rem;
     background-color: var(--secondary-color);
@@ -467,22 +479,24 @@ ul li a:hover{
     padding: 4rem 2rem 2rem 2rem;
 }
 
-.title-container{
-    width:60%;
+.title-container {
+    width: 60%;
     text-align: justify;
     padding: 3rem 2rem;
 }
 
-.title-container h1{
+.title-container h1 {
     font-size: 2rem;
     line-height: 2rem;
     text-align: center;
 }
-.title-container h1 span{
+
+.title-container h1 span {
     color: var(--secondary-color);
     font-weight: 600;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     width: 80%;
     border-radius: 20px;
@@ -503,7 +517,7 @@ ul li a:hover{
     font-size: 1rem;
 }
 
-.skill-container .frontend{
+.skill-container .frontend {
     margin-top: 1rem;
     display: flex;
     flex-basis: 50%;
@@ -514,14 +528,13 @@ ul li a:hover{
 }
 
 .skill-container .frontend h1,
-.skill-container .backend h1
-{
+.skill-container .backend h1 {
     font-size: 500;
     margin: 1rem 1rem;
 }
 
 .skill-container .frontend .description,
-.skill-container .backend .description{
+.skill-container .backend .description {
     width: 80%;
     line-height: 1.5rem;
     padding: 1rem 1rem;
@@ -530,15 +543,14 @@ ul li a:hover{
 .skill-container .frontend .language,
 .skill-container .frontend .tools,
 .skill-container .backend .language,
-.skill-container .backend .tools
-{
+.skill-container .backend .tools {
     color: blue;
     line-height: 1.5rem;
     padding: 1rem 1rem;
 }
 
 .skill-container .frontend ul,
-.skill-container .backend ul{
+.skill-container .backend ul {
     display: flex;
     flex-direction: column;
 }
@@ -564,82 +576,82 @@ ul li a:hover{
     padding: 2rem 4rem;
 }
 
-.contact .content{
+.contact .content {
     padding-top: 5rem;
 }
 
-.contact .content h1{
+.contact .content h1 {
     font-size: 2rem;
     line-height: 2rem;
     text-align: center;
 }
 
-.contact .content p{
+.contact .content p {
     width: 100%;
     text-align: justify;
     line-height: 1.5rem;
     padding: 2rem 0rem;
 }
 
-.contact .container{
+.contact .container {
     width: 100%;
     display: flex;
     /* padding: 4rem 2rem; */
 }
 
-.container .contactInfo{
+.container .contactInfo {
     width: 50%;
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
-.container .contactInfo .box{
+.container .contactInfo .box {
     position: relative;
     padding: 1rem 0;
     display: flex;
 }
 
-.container .contactInfo .box .icons{
+.container .contactInfo .box .icons {
     min-width: 2.5rem;
     height: 2.5rem;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     background: var(--secondary-color);
     border-radius: 50%;
     font-size: 1rem;
 }
 
-.container .contactInfo .box .text{
+.container .contactInfo .box .text {
     display: flex;
     margin-left: 1rem;
     font-size: 1rem;
     flex-direction: column;
 }
 
-.container .contactInfo .box .text h3{
+.container .contactInfo .box .text h3 {
     font-weight: 500;
 }
 
-.container .contactForm{
+.container .contactForm {
     width: 60%;
     padding: 1rem;
 }
 
-.container .contactForm h2{
+.container .contactForm h2 {
     font-size: 2rem;
     font-weight: 500;
 }
 
-.container .contactForm .inputBox{
+.container .contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-top: 1rem;
 }
 
 .container .contactForm .inputBox input,
-.container .contactForm .inputBox textarea{
+.container .contactForm .inputBox textarea {
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -650,7 +662,7 @@ ul li a:hover{
     resize: none;
 }
 
-.container .contactForm .inputBox span{
+.container .contactForm .inputBox span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -661,16 +673,16 @@ ul li a:hover{
     color: #666;
 }
 
-.container .contactForm .inputBox input:focus ~ span,
-.container .contactForm .inputBox input:valid ~ span,
-.container .contactForm .inputBox textarea:focus ~ span,
-.container .contactForm .inputBox textarea:valid ~ span{
-    color:lightcoral;
+.container .contactForm .inputBox input:focus~span,
+.container .contactForm .inputBox input:valid~span,
+.container .contactForm .inputBox textarea:focus~span,
+.container .contactForm .inputBox textarea:valid~span {
+    color: lightcoral;
     font-size: 12px;
     transform: translateY(-2rem);
 }
 
-.container .contactForm .inputBox input[type="submit"]{
+.container .contactForm .inputBox input[type="submit"] {
     width: 100px;
     background: var(--secondary-color);
     color: #333;
@@ -682,7 +694,7 @@ ul li a:hover{
 
 
 /*----------------Responsive design--------------*/
-@media(max-width: 750px){ 
+@media(max-width: 750px) {
     nav .checkbox {
         display: block;
     }
@@ -702,19 +714,19 @@ ul li a:hover{
     nav #check:checked~ul {
         left: 0;
     }
-    
+
     nav ul li a {
         font-size: 1.25rem;
     }
 
     /*-----for homepage only--------*/
-    
+
     .main-container-Home {
         padding: 6rem 1rem 0rem 1rem;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     .right-container {
         grid-area: 1/1/2/2;
     }
@@ -733,8 +745,8 @@ ul li a:hover{
         line-height: 1rem;
     }
 
-/*-----for portfoilo only--------*/
-    .row{
+    /*-----for portfoilo only--------*/
+    .row {
         flex-direction: column;
     }
 
@@ -746,21 +758,20 @@ ul li a:hover{
         min-height: 15rem;
     }
 
-    .project-row{
+    .project-row {
         display: flex;
         flex-direction: column;
     }
 
-            
-/*-----for CV only--------*/
-    .timeline{
+    /*-----for CV only--------*/
+    .timeline {
         grid-template-columns: repeat(1, 1fr);
     }
 
-/*-----for ABOUT ME only--------*/
+    /*-----for ABOUT ME only--------*/
 
-    .skill-container{
-        flex-direction: column; 
+    .skill-container {
+        flex-direction: column;
     }
 
     .skill-container .frontend {
@@ -769,33 +780,46 @@ ul li a:hover{
     }
 
 
-/*-----for CONTACT only--------*/
-    .contact{
+    /*-----for CONTACT only--------*/
+    .contact {
         padding: 50px;
     }
 
-    .container{
+    .container {
         flex-direction: column;
     }
 
-    .container .contactInfo{
+    .container .contactInfo {
         margin-bottom: 40px;
     }
 
     .container .contactInfo,
-    .container .contactForm{
-        width:100%;
+    .container .contactForm {
+        width: 100%;
+    }
+}
+
+/*---------------for print-style only-------------------*/
+
+@media print {
+    body{
+        margin: 0;
+        color: var(--text-dark);
+    }
+
+    .cv-container a {
+        left: 15rem;
     }
 }
 
 /*-------------footer--------------*/
-.footer{
+.footer {
     width: 100%;
     text-align: center;
     padding: 12px 0;
 }
 
-.footer h4{
+.footer h4 {
     margin-top: 20px;
     margin-bottom: 25px;
     font-weight: 600;

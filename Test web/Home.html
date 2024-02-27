@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print-style.css" media="print">
     <title>Jing's Portfolio Website</title>
 </head>
 
@@ -33,11 +34,11 @@
         </nav>
     </section>
 
-    <section class="main-content"> 
+    <section class="main-content" id="mainColor"> 
         <div class="main-container-Home">
             <div class="left-container">
-                <h1>Jing Zhang</h1>
-                <h2><span>Fullstack .NET Developer Student</span></h2>
+                <h1 id="title">Jing Zhang</h1>
+                <h2 id="subtitle"><span>Fullstack .NET Developer Student</span></h2>
                 <p>
                     <br>
                 <pre><strong>Phone       </strong>073-914 1272</pre>
@@ -66,9 +67,15 @@
         <div class="icons">
             <a href="https://www.linkedin.com/in/jing-zhang-bb45b5a9/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/lucine1029"><i class="fa-brands fa-github"></i></a>
-            <!-- <i class="fa-solid fa-envelope"></i>
-            <i class="fa-solid fa-phone"></i> -->
         </div>
     </section>
+
+    <div class="surpriseModule" id="surpriseModule">
+        <div class="module-content">
+            <i class="ri-mail-close-line" id="close-icon"></i>
+            <p>All I really need is love❤️, not eggs but a little chocolate is fine!😊 <br><strong>Happy Easter!🐣</strong></p>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
 </body>
 </html>
