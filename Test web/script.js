@@ -48,6 +48,33 @@ closeIcon.addEventListener('click', function () {
 });
 
 
+/*---------------for portfolio page-------*/ 
+// const musicPic = document.querySelector("#music-pic1");
+
+// musicPic.addEventListener("click", function () {
+//     musicPic.src = "images/Portfolio/SDI Music.png";
+// });
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     const bankPic = document.querySelector("#bank-pic1");
+
+//     bankPic.addEventListener("click", function () {
+//         bankPic.src = "images/Portfolio/SDI Bank.png";
+//     });
+// });
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     const ballPic = document.querySelector("#ball-pic1");
+
+//     ballPic.addEventListener("click", function () {
+//         ballPic.src = "images/Portfolio/SDI Bank.png";
+//     });
+// });
+
+
+
+
 
 /* try 1*/
 
