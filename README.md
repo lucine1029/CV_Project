@@ -1,4 +1,4 @@
-Welcom to my very first frontend project-- My portfolio website!
+Welcom to my very first frontend project-- My portfolio website with pure HTML and CSS!
 
 🐣 Easter surprise!!! 🐣
 1. Easter egg one: If you try to click on My name at the Home Page, you will notice something is changing 😊
